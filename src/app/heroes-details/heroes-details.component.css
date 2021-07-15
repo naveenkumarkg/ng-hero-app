@@ -1,14 +1,21 @@
-.update{
-    background: #aeaed5;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    margin: 0 auto;
+.update {
+  background: #aeaed5;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 0 auto;
+  font-size: 30px;
+  border-radius: 20px;
+  box-shadow: 0 1px 1px 0 rgb(66 66 66 / 8%), 0 1px 3px 1px rgb(66 66 66 / 16%);
 }
 
-.active{
-    background-color: antiquewhite;
-    color:black;
-    
-    }
+.active {
+  background-color: antiquewhite;
+  color: aqua;
+}
+
+input[type="text"] {
+  font-size: 25px;
+  padding: 10px;
+}
