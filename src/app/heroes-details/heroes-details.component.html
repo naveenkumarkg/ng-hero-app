@@ -1,0 +1,9 @@
+<div class="update" *ngIf="hero">
+    <h2>Welcome {{ hero.name | uppercase }}</h2>
+    <div>
+      <span>id: <b>{{ hero.id }}</b></span>
+    </div>
+    <div>
+      <span>name: <input [(ngModel)]="hero.name" type="text" /> </span>
+    </div>
+  </div>

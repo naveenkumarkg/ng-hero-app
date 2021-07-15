@@ -1,0 +1,29 @@
+.list{
+    background: gray;
+    width: 20%;
+    color: white;
+    padding: 10px 5px 10px 5px;
+    border-radius: 12px;
+    margin-top: 5px ;
+    list-style: none;
+    transition: all 1s;
+}
+
+.list .badge{
+    background: black;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 14px;
+}
+
+.list:hover, .active{
+background-color: antiquewhite;
+color:black;
+
+}
+
+.badge:hover{
+    background:white
+}
